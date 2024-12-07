@@ -17,6 +17,19 @@ ol {
     list-style-type: none;
 }
 
+.conteiner {
+    width: 1158px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .conteiner2 {
     width: 1158px;
     padding-left: 16px;
@@ -33,7 +46,7 @@ ol {
     margin-right: auto;
 }
 
-.img {
+img {
     display: block;
 }
 
@@ -58,18 +71,7 @@ p {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner {
-    width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .logo {
     font-family: "Raleway", sans-serif;
