@@ -17,14 +17,6 @@ ol {
     list-style-type: none;
 }
 
-.conteiner {
-    width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .conteiner2 {
     width: 1158px;
     padding-left: 16px;
@@ -39,6 +31,10 @@ ol {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.img {
+    display: block;
 }
 
 button {
@@ -58,6 +54,23 @@ p {
 
 /* #region Header */
 
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.conteiner {
+    width: 1158px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -66,6 +79,7 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .logo-style {
@@ -83,10 +97,14 @@ p {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     color: #2E2F42;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-page {
+    display: flex;
+    align-items: center;
 }
 
 .nav-item {
@@ -108,6 +126,10 @@ p {
 
 .address {
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 328px;
+    gap: 40px;
 }
 
 .mail_tel {
