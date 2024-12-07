@@ -30,13 +30,6 @@ ol {
     padding-right: 15px;
 }
 
-.conteiner2 {
-    width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .conteiner3 {
     width: 1158px;
@@ -158,6 +151,8 @@ p {
 
 .box {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .box-title {
@@ -167,7 +162,9 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
 }
+
 
 .button_box {
     font-family: "Roboto", sans-serif;
@@ -177,6 +174,13 @@ p {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
 }
 
 .button_box:hover,
