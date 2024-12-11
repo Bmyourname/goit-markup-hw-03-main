@@ -55,7 +55,9 @@ p {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.head-conteiner {
 
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -95,7 +97,6 @@ p {
 
 .nav-item {
     color: #2E2F42;
-    padding: 24px 0;
 }
 
 .nav-item-link {
@@ -104,6 +105,7 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: currentColor;
+    padding: 24px 0;
 }
 
 .nav-item-link:hover,
