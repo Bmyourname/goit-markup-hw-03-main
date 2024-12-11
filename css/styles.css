@@ -55,8 +55,17 @@ p {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.head-conteiner {
-
+.head-conteiner .conteiner {
+    width: 1158px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
@@ -105,7 +114,8 @@ p {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: currentColor;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-item-link:hover,
