@@ -23,7 +23,7 @@ ol {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 15px;
@@ -109,6 +109,7 @@ p {
 }
 
 .nav-item-link {
+    display: inline;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -124,11 +125,12 @@ p {
 }
 
 .address {
+    display: flex;
     font-style: normal;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 328px;
     gap: 40px;
+    margin-left: 328px;
 }
 
 .mail_tel {
@@ -177,14 +179,15 @@ p {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
 .button_box:hover,
