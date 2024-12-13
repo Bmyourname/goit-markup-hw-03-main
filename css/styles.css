@@ -132,6 +132,11 @@ p {
     margin-left: 328px;
 }
 
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
 .mail_tel {
     font-weight: 400;
     font-size: 16px;
