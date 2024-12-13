@@ -195,8 +195,35 @@ p {
     background-color: #404BBF;
 }
 
+.values {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.visualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .values_title {
     color: transparent
+}
+
+.values_list {
+    display:flex;
+    gap:24px;
+}
+
+.val_list_def {
+    width: calc((100% - 72px) / 4);
 }
 
 .val_name {
@@ -205,6 +232,7 @@ p {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .val_def {
