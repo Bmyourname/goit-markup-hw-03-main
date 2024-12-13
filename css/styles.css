@@ -212,10 +212,6 @@ p {
     padding-bottom: 120px;
 }
 
-.values_title {
-    color: transparent
-}
-
 .values_list {
     display:flex;
     gap:24px;
