@@ -295,7 +295,7 @@ p {
     color: #434455;
 }
 
-port_conteiner {
+.experiences {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -307,6 +307,7 @@ port_conteiner {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .item_name {
