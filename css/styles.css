@@ -125,7 +125,6 @@ p {
 }
 
 .address {
-    display: flex;
     font-style: normal;
     padding-top: 24px;
     padding-bottom: 24px;
